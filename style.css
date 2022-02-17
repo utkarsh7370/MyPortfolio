@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+
+#navbar {
+  font-family: "Lato", sans-serif;
+}
+#home {
+  font-family: "Roboto", sans-serif;
+}
+#about {
+  font-family: "Lato", sans-serif;
+}
+#service {
+  font-family: "Lato", sans-serif;
+}
+#contact {
+  font-family: "Roboto", sans-serif;
+}
+#footer {
+  font-family: "Roboto", sans-serif;
+}
+
+.services-item {
+  transition: 0.3s;
+}
+
+.services-item:hover {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+  transform: translateY(-20px);
+}
+
+.names h3 {
+  font-size: 1rem;
+}
+
+.progress {
+  height: 0.5rem !important;
+}
+
+.footer {
+  background-color: #f3f3f3;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .email_id {
+    margin-left: -2rem !important;
+  }
+}
